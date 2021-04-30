@@ -1,5 +1,5 @@
 Quando("acesso o Menu") do
-  @home_components.burger.click
+  @home_screen.tep_hamburger
 end
 
 Então("vejo a lista de opções de navegação") do

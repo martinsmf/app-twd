@@ -4,6 +4,8 @@ Before do
   @navigator = Navigator.new
   @login = LoginScreen.new
   @login_components = LoginComponents.new
+  @radio_button = RadioButtonScreen.new
+  @radio_check = Checks.new
 
   driver.start_driver
   driver.manage.timeouts.implicit_wait = 10

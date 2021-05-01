@@ -3,5 +3,5 @@ Quando("acesso o Menu") do
 end
 
 Então("vejo a lista de opções de navegação") do
-  expect(@menu_components.menu.displayed?).to be true
+  expect(@navigator.menu.displayed?).to be true
 end

@@ -3,8 +3,6 @@ require "appium_lib"
 
 require "fileutils"
 
-require_relative "../support/view/components/home-components.rb"
-
 # Limpa os logs e os screenshots
 FileUtils.rm_f(Dir.glob("logs/*.json"))
 FileUtils.rm_f(Dir.glob("logs/*.png"))

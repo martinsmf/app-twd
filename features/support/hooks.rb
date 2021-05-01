@@ -1,7 +1,9 @@
 Before do
   @home_components = HomeComponents.new
-  @menu_components = MenuComponents.new
   @home_screen = HomeScreen.new
+  @navigator = Navigator.new
+  @login = LoginScreen.new
+  @login_components = LoginComponents.new
 
   driver.start_driver
   driver.manage.timeouts.implicit_wait = 10

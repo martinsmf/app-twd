@@ -7,3 +7,13 @@ class RadioButtonScreen
     @radio_button.radio_button(button).click
   end
 end
+
+class CheckBoxScreen
+  def initialize
+    @checkbox = Checks.new
+  end
+
+  def checkbox(check)
+    @checkbox.checkbox(check).click
+  end
+end

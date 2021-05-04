@@ -1,5 +1,5 @@
 class LoginScreen
-  attr_accessor :login_components
+  #attr_accessor :login_components
 
   def initialize
     @login_components = LoginComponents.new

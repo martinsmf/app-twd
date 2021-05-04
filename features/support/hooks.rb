@@ -5,6 +5,7 @@ Before do
   @login = LoginScreen.new
   @login_components = LoginComponents.new
   @radio_button = RadioButtonScreen.new
+  @checkbox = CheckBoxScreen.new
   @radio_check = Checks.new
 
   driver.start_driver

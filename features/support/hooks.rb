@@ -7,6 +7,10 @@ Before do
   @radio_button = RadioButtonScreen.new
   @checkbox = CheckBoxScreen.new
   @radio_check = Checks.new
+  @button_scree = ButtonScreen.new
+  @button_componente = ButtonComponentes.new
+  @avengers_screen = AvengersScreen.new
+  @avengers_componente = AvengersComponents.new
 
   driver.start_driver
   driver.manage.timeouts.implicit_wait = 10

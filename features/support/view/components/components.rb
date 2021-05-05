@@ -7,4 +7,8 @@ class Navigator
   def menu
     return find_element(id: "io.qaninja.android.twp:id/rvNavigation")
   end
+
+  def toast
+    return find_element(xpath: "//android.widget.Toast")
+  end
 end

@@ -12,5 +12,5 @@ end
 
 Then("devo ver a notificação: {string}") do |notification|
   #   log(get_source) pegar o xml da tela
-  expect(@login_components.toast.text).to eql notification
+  expect(@navigator.toast.text).to eql notification
 end

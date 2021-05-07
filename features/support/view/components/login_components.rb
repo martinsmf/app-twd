@@ -1,4 +1,7 @@
 class LoginComponents
+  def initialize
+  end
+
   def field_login
     return find_element(id: "io.qaninja.android.twp:id/etEmail")
   end

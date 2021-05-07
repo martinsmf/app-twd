@@ -1,13 +1,9 @@
-class LoginScreen
-  #attr_accessor :login_components
+require_relative "../components/login_components.rb"
 
-  def initialize
-    @login_components = LoginComponents.new
-  end
-
+class LoginScreen < LoginComponents
   def sign_in(email, password)
-    @login_components.field_login.send_keys(email)
-    @login_components.field_password.send_keys(password)
-    @login_components.button_enter.click
+    field_login.send_keys(email)
+    field_password.send_keys(password)
+    button_enter.click
   end
 end
